@@ -1,4 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root{
     --blue: #2E4595;
@@ -101,7 +102,7 @@ body{
 }
 
 .font-poke{
-    font-family: "Pokemon";
+    font-family: "Pokemon", sans-serif;
     letter-spacing: 2px;
     color: var(--yellow);
     text-shadow: 2px 0 0 var(--blue), -2px 0 0 var(--blue), 0 2px 0 var(--blue), 0 -2px 0 var(--blue), 1px 1px var(--blue), -1px -1px 0 var(--blue), 1px -1px 0 var(--blue), -1px 1px 0 var(--blue);
