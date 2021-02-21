@@ -1,0 +1,108 @@
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+
+:root{
+    --blue: #2E4595;
+    --yellow: #FDC00E;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #EF5350;
+}
+
+/* Logo */
+#logo-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    width: 24rem;
+}
+
+/* Input */
+#body-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.7rem;
+}
+
+#input-name{
+    width: 13rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.7rem;
+}
+
+#input-name:focus{
+    outline: none;
+}
+    
+/* Submit button */
+#submit-btn{
+    margin-top: 0.5rem;
+    width: 5.9rem;
+    height: 2.3rem;
+    border: 0.3rem solid var(--blue);
+    border-radius: 0.5rem;
+    color: var(--blue);
+    background-color: var(--yellow);
+    padding: 0.2rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#submit-btn:focus{
+    outline: none;
+}
+
+#submit-btn:hover{
+    background-color: var(--blue);
+    border: 0.3rem solid var(--yellow);
+    color: var(--yellow);
+}
+
+/* Pokemon sprite */
+.dynamic-js{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.2rem;
+}
+
+#poke-sprite{
+    width: 12rem;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+
+/* Card */
+
+.list-group{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.font-poke{
+    font-family: "Pokemon";
+    letter-spacing: 2px;
+    color: var(--yellow);
+    text-shadow: 2px 0 0 var(--blue), -2px 0 0 var(--blue), 0 2px 0 var(--blue), 0 -2px 0 var(--blue), 1px 1px var(--blue), -1px -1px 0 var(--blue), 1px -1px 0 var(--blue), -1px 1px 0 var(--blue);
+}
